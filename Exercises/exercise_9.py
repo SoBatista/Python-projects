@@ -16,5 +16,3 @@ else:
     print "You did not choose a correct option!"
 
 
-
-
