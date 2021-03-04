@@ -1,5 +1,5 @@
 """
-This program will prompt the user to enter a year and than he will print out if that year is leap year or not
+This program will prompt the user to enter a year and than to will print out if that year is leap year or not
 """
 
 year = int(raw_input("Enter a number for me to say if it is leap year: "))
