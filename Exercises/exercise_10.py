@@ -1,3 +1,7 @@
+"""
+This program is a basic calculator
+"""
+
 def mul(arg1, arg2):
     return arg1*arg2
 
