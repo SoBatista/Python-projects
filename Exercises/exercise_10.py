@@ -15,6 +15,9 @@ def div(arg1, arg2):
 def sub(arg1, arg2):
     return arg1 - arg2
 
+def squa(arg1):
+    return arg1 ** 2
+
 
 def main():
     print "Wellcome!"
@@ -24,6 +27,7 @@ def main():
         print "2 - Addition"
         print "3 - Division"
         print "4 - Subtraction"
+        print "5 - Squared"
         print "0 - Exit"
         
         option =  raw_input("Enter a number from the menu: ")
@@ -49,6 +53,10 @@ def main():
             arg1 = raw_input("Enter the first number: ")
             arg2 = raw_input("Enter the second number: ")
             res = sub(int(arg1), int(arg2))
+            print res
+        elif option == "5":
+            arg1 = raw_input("Enter the number: ")
+            res = squa(int(arg1))
             print res
         
 main()        
