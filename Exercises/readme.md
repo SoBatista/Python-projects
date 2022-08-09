@@ -1,5 +1,9 @@
 # Exercise List descriptions
 
+## Introduction
+
+These exercises are for me to practice my Python skills. They are all in Python 3 code.
+
 ## Exercise 1:
 
 This program requests to the user an integer and returns the square of the triple of that integer 
