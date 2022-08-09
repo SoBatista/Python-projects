@@ -2,6 +2,10 @@
 
 ## Exercise 1:
 
+This program requests to the user an integer and returns the square of the triple of that integer 
+
+------
+
 ## Exercise 2:
 
 ## Exercise 3:
