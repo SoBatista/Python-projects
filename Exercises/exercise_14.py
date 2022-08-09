@@ -1,3 +1,7 @@
+"""
+
+"""
+
 print("Please enter the vales to calculate the average speed traveled: ")
 
 km=float(input("Enter the Kilometers done by you: "))
