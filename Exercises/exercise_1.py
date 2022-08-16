@@ -2,7 +2,7 @@
 
 """
 This program requests to the user an integer and returns the square of the triple of that integer 
-"""
+QUALQUER COISA"""
 
 integer = input("Enter a integer: ")
 
