@@ -96,6 +96,10 @@ This program requests to the user to enter the manufacturing cost, the percentag
 
 ## Exercise 16:
 
+This program requests to the user to insert the number of passagers to be carried on the plane and calculates the plane's consumption in gallons/mile
+
+------
+
 ## Exercise 17:
 
 This program requests to the user to insert a certain number of seconds and it will return the days, hours, minuts and seconds that correspond to that number

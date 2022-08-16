@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-
+This program requests to the user to insert the number of passagers to be carried on the plane and calculates the plane's consumption in gallons/mile
 """
 
 passagers=int(input("Enter the number of passagers: "))
