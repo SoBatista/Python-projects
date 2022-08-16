@@ -1,9 +1,11 @@
+#!/usr/bin/env python3
+
 """
-In this exercise I will prompt the user to enter the number of the radius of the circle for me to calculate the area
+This program requests to the user to enter the number of the radius of the circle for me to calculate the are
 """
 
-radius = raw_input("Enter the number of the radius of the circle so I can calculate the area: ")
+radius = input("Enter the number of the radius of the circle so I can calculate the area: ")
 
 area = 3.14 * int(radius) ** 2
 
-print area
+print(area)

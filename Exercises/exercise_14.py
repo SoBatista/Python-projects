@@ -1,5 +1,9 @@
-"""
+#!/usr/bin/env python3
 
+"""
+This program requests to the user to enter two numbers corresponding to a distance traveled (in km) and the time required to cover it (in minutes), and calculates the average speed in: 
+(a) Km / h 
+(b) m / s
 """
 
 print("Please enter the vales to calculate the average speed traveled: ")

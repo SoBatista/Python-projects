@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+
+"""
+This program requests to the user to enter five real numbers and calculate the its average and standard deviation
+"""
+
 from math import sqrt
 num1=int(input("Enter the 1st number: "))
 num2=int(input("Enter the 2nd number: "))

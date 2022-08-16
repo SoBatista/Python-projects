@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
+
 """
-This program will prompt the user to enter an amount in EUROS and it will print that amount in as few coins as possible.
+This program requests to the user to enter an amount in EUROS and it will print that amount in as few coins as possible.
 """
 
-amount = float(raw_input("Enter an amount in EUROS: "))
+amount = float(input("Enter an amount in EUROS: "))
 
-print amount, "stands for:"
+print(amount, "stands for:")
 
 coin_list = [2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01]
 
@@ -17,7 +19,7 @@ for coin in coin_list:
     
 
 for i in range(len(coin_list_res)):
-    print int(coin_list_res[i]), "coins of", coin_list[i]
+    print(int(coin_list_res[i]), "coins of", coin_list[i])
 
 
 """
