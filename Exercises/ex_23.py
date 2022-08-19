@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-This program requests to the user to enter a positive integer and prints the odd numbers that count in that number
+This program requests to the user to enter a positive integer and prints the odd digits that in that number
 """
 
 
