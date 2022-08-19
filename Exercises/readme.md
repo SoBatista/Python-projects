@@ -143,3 +143,9 @@ This program requests to the user to enter a sequence of numbers and in the end 
 This program requests to the user to enter a positive integer and prints the odd digits that count in that number
 
 ------
+
+## Exercise 24:
+
+This program requests to the user to enter a positive integer and prints the digits of that number inverted
+
+------
