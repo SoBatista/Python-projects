@@ -137,3 +137,9 @@ In case that the user enter a negative number the program will shutdown
 This program requests to the user to enter a sequence of numbers and in the end it will print each number in one line
 
 ------
+
+## Exercise 23:
+
+This program requests to the user to enter a positive integer and prints the odd digits that count in that number
+
+------
