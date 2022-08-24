@@ -20,4 +20,4 @@ jobs:
         python-version: "3.10"
     - name: Run Unit tests
       run: |
-        python3 -m unittest
+        cd Exercises && python3 -m unittest
