@@ -12,17 +12,22 @@ def factorial(n):
     return factorial
 
 def power_of(x, n):
-    res=5
+    res=x
     if(n == 0):
         return 1
     for i in range(n-1):
         res=res*x
     return res
 
-'''num_x=int(input("Enter the value of 'x': "))
-num_n=int(input("Enter the value of 'n': "))
+def runMain(num_x, num_n):
+    sum = 0
+    for i in range(num_n+1):
+        val1 = power_of(num_x, i)
+        val2 = factorial(i)
+        sum = sum + (val1 / val2)
+    return format(sum, ".2f")
 
-sum = 0
-for i in range(num_n):
-    sum = sum + power_of(num_x, i) / factorial(num_n)
-print(sum)'''
+if __name__ == '__main__':
+    num_x=int(input("Enter the value of 'x': "))
+    num_n=int(input("Enter the value of 'n': "))
+    print(runMain(num_x, num_n))
